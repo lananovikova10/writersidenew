@@ -102,9 +102,8 @@ You can also use the Fire channel to drive the color, the opacity or both. You c
 ## Container tabs
 
 <tabs>
-  <tab title="Container"
+  <tab title="Container">
 **Max Memory Usage**
-
 This field shows the maximum resolution (in voxels) that the container can use as well as the amounts of memory that it would use in this case. How much the simulation will actually need depends on how the simulation grows over time.
 
 Here is an example:
@@ -167,7 +166,7 @@ While all frames are written to disk, TurbulenceFD will only keep a small number
 * **Cache Velocity** - Caching the velocity of the fluid allows you to use Velocity Displacement during rendering, continue or restart simulations from any frame of the cache and move particles through the fluid. However, it requires considerable amounts of disk space. Because velocity is a 3-dimensional vector, caching the velocity takes 3 times as much memory as for example the temperature field.
 * **Cache Collision** - Cache the collision field used by the simulation. You can use the viewport preview with this channel to check how voxelization of the collision objects has turned out. See the Collision Object parameter in the emitter's General tab for more information about collision object voxelization. The collision field is a partial signed distance field. For values inside collision objects, each voxel value represents the negative distance to the closest point on the object's surface. Voxels that are not inside any collision object have a very large positive value.
 </tabs>
-<tab title="Simulation"
+<tab title="Simulation">
   <tab title="Solver"
     Frame Sub-Steps Limit - For fast moving objects interacting with fluid or to have fluid behave properly under high-speed pressure or other situations will be more accurate by increasing the Sub-Steps Limit. If your simulation has high velocities and you're seeing noise artefacts in the flow, allow the simulation to take more sub-frame time slices, if necessary, by increasing this value. This will allow the simulation to resolve the fluid motion better. It comes at a cost of simulation time and can drastically impact the look of your fluid simulation. Use it sparingly.
     Pressure Iteration Limit - Wherever velocity deforms the fluid, pressure is build up. It is a fundamental part of the simulation to equalize this pressure. For simulations that have high velocities and/or collision objects or closed container boundaries, it is recommended to use values between 2 and 10. Values larger than 10 should rarely be necessary. For simulations that don't have collisions and mostly moderate velocities, the simulation time can be kept lower by using the minimum of one iteration.

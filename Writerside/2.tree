@@ -10,4 +10,9 @@
         <toc-element topic="InstallationTips.md"/>
     </toc-element>
     <toc-element topic="Procedural-Geometry-nodes.md"/>
+    <toc-element topic="Instancer-Brush.md"/>
+    <toc-element topic="LightWave-Pro-Tools.md"/>
+    <toc-element topic="Node-editor-updates.md"/>
+    <toc-element topic="Unreal-bridge.md"/>
+    <toc-element topic="Turbulence-FD.md"/>
 </instance-profile>

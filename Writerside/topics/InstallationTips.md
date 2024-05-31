@@ -29,5 +29,5 @@ The same goes for keyboard shortcuts. Going to Edit > Edit Keyboard Shortcuts or
 Presets Manager tools
 
 ## Presets Manager
-![Layout_2023-11-29_14-22-58.width-800.png](Layout_2023-11-29_14-22-58.width-800.png)
+![Layout_2023-11-29_14-22-58.width-800.png](Layout_2023-11-29_14-22-58.width-800.png){style=block}
 The Pro Tools Presets Manager needs a couple of extra tools installed for proper functionality. The first is WinHDRTools, which you will find in the support folder. Just extract the files to a folder called WinHDRTools in support. The second is NConvert, which you need to download and just copy the extracted zip to your LightWave/support folder. Finally, use the requesters in this window to point to the executables for each.
